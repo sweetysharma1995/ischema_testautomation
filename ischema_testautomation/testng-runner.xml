@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--<suite name="Suite" group-by-instances="true" parallel="false" preserve-order="true">
+    <listeners>
+        <listener class-name="testReportManager.TestListener" />
+    </listeners>
+    &lt;!&ndash; <test name="Test1" group-by-instances="true" parallel="false" preserve-order="true" >
+
+        <packages>
+
+            <package name="onboarding_Page_ADBased">
+
+</package>
+        </packages>
+    </test> &ndash;&gt;
+
+
+<test name="Test1" group-by-instances="true" parallel="false">
+<classes>
+    <class name="onboarding_Page_ADBased.TC_001_DraftTest"></class>
+
+</classes>
+</test>
+
+<test name="Test2" group-by-instances="true" parallel="false">
+    <classes>
+        <class name="onboarding_Page_ADBased.TC_002_DraftToDraftTest"></class>
+
+    </classes>
+</test>
+
+    <test name="Test3" group-by-instances="true" parallel="false">
+        <classes>
+            <class name="onboarding_Page_ADBased.TC_003_DraftToValidatedTest"></class>
+
+        </classes>
+    </test>
+
+    <test name="Test4" group-by-instances="true" parallel="false">
+        <classes>
+            <class name="onboarding_Page_ADBased.TC_004_ValidatedToValidatedTest"></class>
+
+        </classes>
+    </test>
+
+    <test name="Test5" group-by-instances="true" parallel="false">
+        <classes>
+            <class name="onboarding_Page_ADBased.TC_005_ValidatedToDraftTest"></class>
+
+        </classes>
+    </test>
+
+    <test name="Test6" group-by-instances="true" parallel="false">
+        <classes>
+            <class name="onboarding_Page_ADBased.TC_006_DraftToValidatedTest"></class>
+
+        </classes>
+    </test>
+</suite>-->
+
+<suite name="Suite" parallel="tests">
+    <listeners>
+        <listener class-name="testReportManager.TestListener" />
+    </listeners>
+
+    <test name="Test1" parallel="none">
+        <classes>
+
+
+
+            <class name="BulkModule_AD_File_HybridBased_Common.TC_019_Bulk_Insert_Duplicate_Check_EntitlementTest"/>
+            <class name="BulkModule_AD_File_HybridBased_Common.TC_020_Bulk_Insert_Duplicate_Check_IT_RoleMasterTest"/>
+            <class name="BulkModule_AD_File_HybridBased_Common.TC_021_Bulk_Insert_Duplicate_Check_ExclusionTest"/>
+            <class name="BulkModule_AD_File_HybridBased_Common.TC_022_Bulk_Insert_Duplicate_Check_PopulationTest"/>
+            <class name="BulkModule_AD_File_HybridBased_Common.TC_022_Bulk_Insert_Duplicate_Check_PopulationTest"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </classes>
+    </test>
+</suite>
+
